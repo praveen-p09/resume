@@ -8,18 +8,19 @@
     height: calc(var(--vh, 1vh) * 100);
 }
 section,#feedback{
-    height: calc(var(--vh, 1vh) * 80);
+    height: calc(var(--vh, 1vh) * 100);
 }
     .logo{
-        width:65px;  
+        width:115px; 
+        align-self: center; 
         margin-bottom: 20px;     
     }
     .logo a{
         
-        height: 65px;
+        height: 100px;
     }
     .logo img{
-        height:55px;
+        height:100px;
         
         margin-bottom: 30px;
     }
@@ -27,12 +28,12 @@ section,#feedback{
         flex-direction: column;
         align-self: center;
         align-items: center;
-        width: 100%;
+        width: 80%;
     }
     .navbar ul li{
         padding: 0;
         margin: 0;
-        height: 50px;
+        height: 100px;
         
         display: flex;
         width: 63%;
@@ -40,36 +41,44 @@ section,#feedback{
     .navbar ul li:hover{
         border-radius: 35px;
     }
+    .navbar ul li span{
+        height: 40px;
+    }
     .navbar ul li a{
         margin: 0px;
-        height: 50px;
+        height: 90px;
         width: 100px;
         padding: 5px;
         text-align: center;
         width: 100%;
+        font-size: 40px;
     }
     .navbar{
        padding-top:0px;
         flex-direction: column;
         transition: all 0.7s ease-out;
-        height: 531px;
+        height: 916px;
     }
     .rightnav{
-        width:57%
-    }
- 
-    form.example button {
-        width: 23%;
+        width:70%;
+        justify-content: center;
     }
     .burger{
         display: block;
     }
     .h-nav-resp{
-        height: 72px;
+        height: 150px;
     }
     .v-class-resp{
         opacity: 0;
         pointer-events: none;
+    }
+    #home-nav-pc{
+        display: none;
+    }
+    #home-nav-resp{
+        display: inline-block;
+        text-align: center;
     }
     .box-main{
         flex-direction: column-reverse;
@@ -80,15 +89,17 @@ section,#feedback{
         text-align: justify;
     }
     .secondHalf{
-        height: 272px;
-        width: 272px;
+        height: 500px;
+        width: 500px;
         padding: 30px 0px;
     }
     .secondHalf img{
       
-        height: 212px;
-        width: 212px;
+        height: 372px;
+        width: 372px;
     }
+    .btn,.btn img{height: 85px;
+    width: 85px;}
     .mainsk{
         flex-direction: column;
         align-items: center;
@@ -103,10 +114,14 @@ section,#feedback{
         width: 140%;
         margin-top: 20px;
     }
+    
     #contact{
         padding: 112px 20px;
     }
-
+    .academics{
+        align-items: center;
+        justify-content: center;
+    }
     .link{
         width:120%;
     }
@@ -116,5 +131,62 @@ section,#feedback{
     #feedback{
         align-items: center;
         justify-content: center;
+    }
+    .formdiv,.feedform{
+        width: 600px;
+        height:700px;
+        align-items: center;
+    }
+    .myInput{
+        width: 100%;
+        padding:20px;
+        margin: 20px;
+    }
+    .feedform textarea{
+        height: 280px;
+        width: 100%;
+        font-size: 38px;
+    }
+    .feedform input,.feedform button{
+        font-size: 38px;
+        height: 100px;
+        width: 100%;
+    }
+    
+    .main{
+        height: 344px;
+        width: 500px;
+    }
+    .timeline,.box,.container{
+        height: 596px;
+        width: 580px;
+    }
+    .line {
+        height: 255px;
+        width: 7px;
+        margin-left: 12.3px;
+    }
+    .dot {
+        width: 29px;
+        height: 29px;
+        border-radius: 24px;
+    }
+    .card {
+        width: 344px;
+        height: 279px;
+        padding: 30px;
+        margin-bottom: 51px;
+    }
+    .card p{
+        font-size: 30px;
+    }
+    .card h4{
+        font-size: 50px;
+    }
+    .text-small{
+        font-size: 45px;
+    }
+    .text-big{
+        font-size: 108px;
     }
 }
