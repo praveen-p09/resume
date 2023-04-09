@@ -16,7 +16,6 @@
 //   }  
 // }
 
-
   let burger=document.querySelector('.burger')
   
 navbar=document.querySelector('.navbar');
@@ -75,7 +74,6 @@ for (var i = 0; i < reveals.length; i++) {
 }
 window.addEventListener("scroll", reveal);
 
-// To check the scroll position on page load
 reveal();
 
 const resizeOps = () => {

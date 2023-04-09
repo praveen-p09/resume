@@ -125,7 +125,6 @@ align-items: center;
        
   }
 
-  /* Style the search field */
   form.example input[type=text] {
     padding: 10px;
     font-size: 17px;
@@ -155,7 +154,6 @@ align-items: center;
     background: rgb(106, 105, 105);
   }
   
-  /* Clear floats */
   form.example::after {
     content: "";
     clear: both;
@@ -185,23 +183,22 @@ align-items: center;
 }
 
 .typewriter h1 {
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid grey; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .1em; /* Adjust as needed */
+    overflow: hidden; 
+    border-right: .15em solid grey; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .1em; 
     animation: 
       typing 3.5s steps(40, end),
       blink-caret .75s step-end infinite;
   }
   
-  /* The typing effect */
+  
   @keyframes typing {
     from { width: 0 }
     to { width: 60% }
   }
   
-  /* The typewriter cursor effect */
   @keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: grey; }
