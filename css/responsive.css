@@ -2,6 +2,13 @@
 {   html{
     height: 100vh;
     width: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+}
+#home{
+    height: calc(var(--vh, 1vh) * 100);
+}
+section,#feedback{
+    height: calc(var(--vh, 1vh) * 80);
 }
     .logo{
         width:65px;  
@@ -99,10 +106,15 @@
     #contact{
         padding: 112px 20px;
     }
+
     .link{
         width:120%;
     }
     .link a{
         padding: 0;
+    }
+    #feedback{
+        align-items: center;
+        justify-content: center;
     }
 }
