@@ -1,0 +1,108 @@
+@media only screen and (max-width:1055px)
+{   html{
+    height: 100vh;
+    width: 100vh;
+}
+    .logo{
+        width:65px;  
+        margin-bottom: 20px;     
+    }
+    .logo a{
+        
+        height: 65px;
+    }
+    .logo img{
+        height:55px;
+        
+        margin-bottom: 30px;
+    }
+    .navlist{
+        flex-direction: column;
+        align-self: center;
+        align-items: center;
+        width: 100%;
+    }
+    .navbar ul li{
+        padding: 0;
+        margin: 0;
+        height: 50px;
+        
+        display: flex;
+        width: 63%;
+    }
+    .navbar ul li:hover{
+        border-radius: 35px;
+    }
+    .navbar ul li a{
+        margin: 0px;
+        height: 50px;
+        width: 100px;
+        padding: 5px;
+        text-align: center;
+        width: 100%;
+    }
+    .navbar{
+       padding-top:0px;
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+        height: 531px;
+    }
+    .rightnav{
+        width:57%
+    }
+ 
+    form.example button {
+        width: 23%;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 72px;
+    }
+    .v-class-resp{
+        opacity: 0;
+        pointer-events: none;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .firstHalf{
+        width: 124%;
+        text-align: justify;
+    }
+    .secondHalf{
+        height: 272px;
+        width: 272px;
+        padding: 30px 0px;
+    }
+    .secondHalf img{
+      
+        height: 212px;
+        width: 212px;
+    }
+    .mainsk{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .firstsk{
+        display: flex;
+        flex-direction: column;
+    }
+    .secondsk{
+        display: flex;
+        width: 140%;
+        margin-top: 20px;
+    }
+    #contact{
+        padding: 112px 20px;
+    }
+    .link{
+        width:120%;
+    }
+    .link a{
+        padding: 0;
+    }
+}

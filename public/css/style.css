@@ -1,0 +1,454 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+  }
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+.dark-mode{
+    background-color: black;
+    color: white;
+  }
+.logo{
+    display: flex;
+    align-items: center;
+    width: 100px;
+}
+
+.logo img{
+    height:90%;
+    width:90%;
+display: flex;
+justify-content: center;
+align-items: center;
+border-color: white;
+border-radius: 50px;
+margin: 5px;
+padding: 5px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    cursor: pointer;
+    height: 62px;
+    /* background-color: rgb(77,166,255); */
+}
+.navlist{
+width:69%;
+display: flex;
+align-items: center;
+}
+
+.navbar ul li{
+    list-style: none;
+    padding: 35px 20px;
+    height:75px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 35px 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.navbar ul li a:hover{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.navbar ul li a.active {
+    background-color: white;
+    transition: 0.5s ease-out;
+    letter-spacing: 2px;
+    color: black;
+  }
+.navbar ul li:hover{
+    background-color: white;
+    box-shadow: 5px 5px 3px 0.5px grey;
+    
+}
+
+.rightnav{
+    width:30%;
+    display: flex;
+    text-align:right;
+    justify-content: right;
+    align-items: center;
+    /* background-color: rgb(77,166,255); */
+}
+
+.burger{
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+    display: none;
+    border: 1px solid grey;
+    border-radius: 6px;
+    padding: 2px;
+}
+
+.burgerline{
+    width: 30px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .example{
+        padding: 23px;
+        display: flex;
+       align-items: center;
+       justify-content: center; 
+       
+  }
+
+  /* Style the search field */
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid white;
+    float: left;
+    width: 70%;
+
+    background: none;
+    color: white;
+  }
+  
+  
+  form.example button {
+    float: left;
+    width: 15%;
+    margin: 0px;
+    padding: 10px;
+    background: none;
+    color: white;
+    font-size: 17px;
+    border: 1px solid white;
+    border-left: none; 
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: rgb(106, 105, 105);
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.box-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width:50%;
+    margin: auto;
+    height: 80%;
+}
+
+.firstSection{
+    height:100vh;
+}
+
+.firstHalf{
+    width: 67%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.typewriter h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid grey; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .1em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 60% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: grey; }
+  }
+
+.secondHalf{
+    width: 30%;
+    padding: 20px;
+}
+.fade-in{
+    animation: fadeIn 3s;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+.secondHalf img{
+    width: 150%;
+    border:3px solid white;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+}
+
+.background{
+    background: rgba(0,0,0,0.7) url('https://source.unsplash.com/1180x1000/?nature');
+    background-size: cover;
+    background-blend-mode:darken ;
+}
+
+#about{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 40px 20px;
+max-width: 80%;
+margin: auto;
+}
+.btn{border-radius: 18px;
+    padding: 0px;
+    right: 7px;
+    position: absolute;}
+.btn:hover{
+    cursor: pointer;
+}
+.btn img{
+    border-radius: 18px;
+    height: 40px;
+    width: 40px;
+}
+
+#skills{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 40px 20px;
+max-width: 80%;
+margin: auto;
+}
+.skills h2{
+    margin-bottom: 20px;
+}
+.mainsk{display: flex;}
+
+#skills ul{
+    list-style-type:none;
+}
+.secondsk{
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+.secondsk img{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+.skills ul li{
+    position: relative;
+    font-weight: bold;
+}
+.skills ul li:nth-child(even) {
+    padding-right: 10px;
+    text-align: right;
+    padding-left: 0;
+}
+.skills ul li:nth-child(odd) {
+    padding-right: 10px;
+    text-align: left;
+    padding-left: 0;
+}
+
+#academics{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    max-width: 80%;
+margin: auto;
+}
+
+.timeline h3{
+padding: 20px;
+}
+
+.box{
+    width:100%;
+    height:252px;
+    margin-top:99.5px;
+}
+    
+    .container{
+      
+      width:100%;
+      height:300px;
+      display:flex;
+    }
+      .lines{
+        margin-left:40px;
+        margin-top:6px;
+      }  
+        
+        .dot{
+          width:14px;
+          height:14px;
+background:orange;
+          border-radius:7px;
+        }
+        
+        .line{
+          height:103px;
+          width:2px;
+          background: grey;
+          margin-left:5.3px;
+        }
+      
+      .cards{
+        
+        margin-left:12px;
+        transform:translateY(-50px);
+      }
+      .cards h4{
+        font-family:'Raleway',sans-serif;
+        font-size: 27px;
+        font-weight: bold;
+      }
+
+.card{
+          width:249px;
+          height:130px;
+          padding:14px;
+          background: #FFFFFF;
+          border-radius: 10px;
+          border: 2px solid orange;
+          box-shadow: 0px 16px 15px -10px grey;
+          margin-bottom:10px;
+          color: black;
+    }
+.card p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items:center;
+    justify-content: center;
+    padding: 40px 20px;
+    color: white;
+    
+margin: auto;
+}
+
+.contact img{
+    height: 30px;
+    width: 30px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.contact a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+}
+
+.contact a:hover{
+    cursor: pointer;
+    font-weight: bold;
+    color: #444746;;
+}
+
+.feedback{
+    height: 650px;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feedform{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.feedform input, textarea, button{
+    font-size: 17px;
+    margin: 10px 20px;
+    padding: 10px;
+}
+.feedform button{
+    background-color: rgb(251, 68, 68);
+    color: white;
+    border: 2px solid white;
+    border-radius: 7px;
+}
+.feedform button:hover{
+    background-color: rgba(239, 32, 32, 0.728);
+    color: white;
+    cursor: pointer;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.text-big{
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+
+.text-small{
+    font-family: 'Raleway', sans-serif;
+    font-size: 23px;
+    padding: 20px 0px;
+    text-align: justify;
+}
