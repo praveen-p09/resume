@@ -4,11 +4,8 @@
     width: 100vh;
   height: calc(var(--vh, 1vh) * 100);
 }
-#home{
-    height: calc(var(--vh, 1vh) * 100);
-}
-section,#feedback{
-    height: calc(var(--vh, 1vh) * 100);
+#home,section,#feedback{
+    height: calc(var(--vh, 1vh) * 105);
 }
     .logo{
         width:115px; 
