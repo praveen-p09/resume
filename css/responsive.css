@@ -8,7 +8,7 @@
     #home,
     section,
     #feedback {
-        height: calc(var(--vh, 1vh) * 105);
+        height: calc(var(--vh, 1vh) * 125);
     }
 
     .logo {

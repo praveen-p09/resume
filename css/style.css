@@ -120,11 +120,11 @@ html {
     border-radius: 6px;
     padding: 10px;
     height: 110px;
-    width: 130px;
+    width: 112px;
 }
 
 .burgerline {
-    width: 100px;
+    width: 83px;
     background-color: white;
     height: 10px;
     margin: 15px 5px;
@@ -478,12 +478,15 @@ button {
     margin: 10px 20px;
     padding: 10px;
 }
-
+.myInput{
+    border-radius: 9px;
+    border: 1px solid grey;
+}
 .feedform button {
     background-color: rgb(251, 68, 68);
     color: white;
     border: 2px solid white;
-    border-radius: 7px;
+    border-radius: 9px;
 }
 
 .btn {
@@ -519,12 +522,6 @@ button {
         transform: scale(10);
     }
 }
-
-
-
-
-
-
 
 .feedform button:hover {
     background-color: rgba(239, 32, 32, 0.728);
