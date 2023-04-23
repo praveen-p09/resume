@@ -236,24 +236,23 @@ html {
 
 .btn-small {
     border-radius: 8px;
+    height: 30px;
+    width: 150px;
+    background: none;
+    color: white;
     padding: 0px;
-    height: 40px;
-    width: 40px;
-    right: 7px;
-    border: 1px solid black;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+
+    border: 1px solid white;
     position: absolute;
 }
 
 .btn-small:hover {
     cursor: pointer;
+    color: black;
+    background-color: white;
     border: 1px solid grey;
-}
-
-.btn-small img {
-    border-radius: 18px;
-    height: 35px;
-    width: 35px;
-    align-self: center;
 }
 
 #skills {
@@ -438,10 +437,12 @@ button {
     margin: 10px 20px;
     padding: 10px;
 }
-.myInput{
+
+.myInput {
     border-radius: 9px;
     border: 1px solid grey;
 }
+
 .feedform button {
     background-color: rgb(251, 68, 68);
     color: white;
