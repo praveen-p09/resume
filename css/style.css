@@ -52,7 +52,6 @@ html {
     top: 0;
     cursor: pointer;
     height: 62px;
-    /* background-color: rgb(77,166,255); */
 }
 
 .navlist {
@@ -107,7 +106,6 @@ html {
     text-align: right;
     justify-content: right;
     align-items: center;
-    /* background-color: rgb(77,166,255); */
 }
 
 .burger {
