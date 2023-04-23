@@ -3,6 +3,7 @@ let burger = document.querySelector('.burger')
 navbar = document.querySelector('.navbar');
 navlist = document.querySelector('.navlist');
 rightnav = document.querySelector('.rightnav');
+
 let section = document.querySelectorAll("section");
 let menu = document.querySelectorAll(".navbar ul li a");
 function myFunction() {
